@@ -1,0 +1,44 @@
+﻿.container1 {
+    max-width: 720px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.foot {
+    background-color: #303030;
+    color: silver;
+}
+
+.foot-bottom {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.botf {
+    padding-left: 15px;
+}
+
+.header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.sect1 {
+    padding-top: 65px;
+    padding-bottom: 65px
+}
+#pw{
+position: absolute;
+right: 15px;
+display: inline-block;
+font-size: 14.7px;
+top: 50%;
+transform: translateY(-51%);
+border-radius: 4px;
+font-weight: 600;
+color: #333;
+background-color: #f0f0f0;
+}
