@@ -6,7 +6,7 @@
     <div class="container" style="padding-top:160px;padding-bottom:100px">
     <div class="col-md-6 mx-auto">
 
-        <div class="card">
+        <div class="card" >
               <div class="card-body">
                   <div class="row">
                       <div class="col">
@@ -41,11 +41,13 @@
     <input type="password" class="form-control" placeholder="Password">
   </div>
                           <br />
+                            <a href="forgotpassword.aspx">Forgot Password?</a>
+                          <br />
                           <div class="form-group">
                               <asp:Button class="btn btn-primary btn-block btn-lg"  ID="Button1" runat="server" Text="Login" />
                           </div>
                          <br />
-
+                        
                           </div>
                   </div>
       

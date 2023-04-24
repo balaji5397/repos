@@ -71,20 +71,22 @@
 
            </div>
 
-            <div style="background-color:#e0e0e0;padding-top:15px">
+            <div style="background-color:#e0e0e0;padding-top:60px;padding-bottom:60px">
             <h1 style="text-align:center">Templates</h1></div>
             
-                <div style="background-color:#f9f9f9;padding-top:15px">
+                <div style="background-color:#f9f9f9;padding-top:60px;padding-bottom:60px">
             <h1 style="text-align:center">Membership Plans</h1></div>
 
-            <div style="background-color:#e0e0e0;padding-top:15px">
+            <div style="background-color:#e0e0e0;padding-top:60px;padding-bottom:60px">
             <h1 style="text-align:center">Testimonals</h1></div>
 
-                 <div style="background-color:#f9f9f9;padding-top:15px">
+                 <div style="background-color:#f9f9f9;padding-top:60px;padding-bottom:60px">
             <h1 style="text-align:center">Recent BLOGS</h1></div>
 
-                     <div style="background-color:#e0e0e0;padding-top:15px">
+                     <div style="background-color:#e0e0e0;padding-top:60px;padding-bottom:60px">
             <h1 style="text-align:center">Scrolling Logos</h1>
+
+
 
 
         </div>

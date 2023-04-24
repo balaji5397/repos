@@ -27,6 +27,7 @@
 }
 
 .sect1 {
+
     padding-top: 65px;
     padding-bottom: 65px
 }
@@ -42,3 +43,35 @@ font-weight: 600;
 color: #333;
 background-color: #f0f0f0;
 }
+.subcontainer {
+    display: inline-block;
+    background-color: #444444;
+    margin: 0;
+    padding: 25px 42px;
+    line-height: 23px;
+}
+.icon {
+    /*border-left: 4px solid rgba(255, 255, 255, .3);*/
+    content: "";
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #aaa;
+    font-size: 14px;
+    margin-right: 12px;
+}
+.suhome {
+    color: whitesmoke;
+    padding-right: 6px;
+}
+
+    .suhome a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+        .suhome a:hover {
+            color: white;
+        }

@@ -13,40 +13,46 @@
                           
                   <center><h1>Let's create your account!</h1>
                           <span>Already have an account? <a href="https://localhost:44368/loginpage.aspx">Log In!</a></span>
+                   
+       
                           </center>
                           </div>
                       </div>
 <%--for inserting line--%>
+
                   <div class="row">
                       <div class="col">
+
                           <hr />
                           </div>
                       </div>
 
                   <div class="row">
                       <div class="col">
-                          <label>Full Name</label>
-                          <div class="form-group">
-                              <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Full Name"></asp:TextBox>
-                          </div>
+                          <label>first Name</label>
+                          <div class="input-group">
+    <span class="input-group-text "><i class="fa-solid fa-user"></i></span>
+    <input type="text" class="form-control" placeholder="First Name">
+  </div>
                           </div>
                   </div>
 <%--Mail address--%>
                 <div class="row">
                       <div class="col">
-                          <label>User name</label>
-                          <div class="form-group">
-                              <asp:TextBox CssClass="form-control" ID="TextBox3" runat="server" placeholder="Username"></asp:TextBox>
-                          </div>
+                          <label>UserName</label>
+                          <div class="input-group">
+    <span class="input-group-text "><i class="fa-solid fa-user"></i></span>
+    <input type="text" class="form-control" placeholder="UserName">
+  </div>
                           </div>
                   </div>
-
-               <div class="row">
+              <div class="row">
                       <div class="col">
                           <label>E-Mail Address</label>
-                          <div class="form-group">
-                              <asp:TextBox CssClass="form-control" ID="TextBox4" runat="server" placeholder="Email Address"></asp:TextBox>
-                          </div>
+                          <div class="input-group">
+    <span class="input-group-text "><i class="fa-regular fa-envelope"></i></i></span>
+    <input type="text" class="form-control" placeholder="E-mail-Address">
+  </div>
                           </div>
                   </div>
 
@@ -54,9 +60,10 @@
                <div class="row">
                       <div class="col">
                           <label>Password</label>
-                          <div class="form-group">
-                              <asp:TextBox CssClass="form-control" ID="TextBox5" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
-                          </div>
+                          <div class="input-group">
+    <span class="input-group-text "><i class="fa-solid fa-lock"></i></span>
+    <input type="password" class="form-control" placeholder="Password">
+  </div>
                  <label><asp:CheckBox ID="CheckBox1" runat="server"></asp:CheckBox>
                      <span class="checkbox-icon">By clicking on Register button you are agree to our Terms & Condition</span></label>
                           
