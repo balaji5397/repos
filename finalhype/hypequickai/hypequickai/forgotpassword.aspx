@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/hypeAI.Master" AutoEventWireup="true" CodeBehind="forgotpassword.aspx.cs" Inherits="hypequickai.WebForm2" %>
+﻿
+<%@ Page Title="" Language="C#" MasterPageFile="~/hypeAI.Master" AutoEventWireup="true" CodeBehind="forgotpassword.aspx.cs" Inherits="hypequickai.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -30,24 +31,24 @@
                          <div class="row">
                       <div class="col">
                           <label>E-Mail Address</label>
-                          <div class="input-group">
-    <span class="input-group-text "><i class="fa-regular fa-envelope"></i></i></span>
-    <input type="text" class="form-control" placeholder="E-mail-Address">
-  </div>
                           <br />
+                          <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="E-mail Address" TextMode="Email" ></asp:TextBox>
+                   <br />
                           </div>
                   </div>
                  <div class="form-group">
-                              <center><asp:Button class="btn btn-primary btn-lg" ID="Button1" runat="server" Text="Request Password" /></center>
+                     <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Request Password" OnClick="Button1_Click" />
+
                           </div>
 
-
-
-                </div>
+                 </div>
 
         </div>
 
     </div>
+
+
+         
 
 
 </asp:Content>

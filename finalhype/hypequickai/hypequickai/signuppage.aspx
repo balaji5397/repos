@@ -3,93 +3,70 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <div class="container" style="padding-top:140px;padding-bottom:85px">
-    <div class="col-md-6 mx-auto">
-
-        <div class="card">
-              <div class="card-body">
+     <div class="container" >
+    <div class="col-md-6 mx-auto" style="padding-top=180px">
                   <div class="row">
+
                       <div class="col">
                           
                   <center><h1>Let's create your account!</h1>
                           <span>Already have an account? <a href="https://localhost:44368/loginpage.aspx">Log In!</a></span>
-                   
-       
                           </center>
                           </div>
                       </div>
 <%--for inserting line--%>
-
                   <div class="row">
                       <div class="col">
-
                           <hr />
                           </div>
                       </div>
 
                   <div class="row">
                       <div class="col">
-                          <label>first Name</label>
-                          <div class="input-group">
-    <span class="input-group-text "><i class="fa-solid fa-user"></i></span>
-    <input type="text" class="form-control" placeholder="First Name">
-  </div>
+                          <label>Full Name</label>
+                          
+                              <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="Full Name" ></asp:TextBox>
+                         
                           </div>
                   </div>
 <%--Mail address--%>
                 <div class="row">
                       <div class="col">
-                          <label>UserName</label>
-                          <div class="input-group">
-    <span class="input-group-text "><i class="fa-solid fa-user"></i></span>
-    <input type="text" class="form-control" placeholder="UserName">
-  </div>
+                          <label>User name</label>
+                              <asp:TextBox CssClass="form-control" ID="TextBox3" runat="server" placeholder="Username"></asp:TextBox>
                           </div>
+                          
                   </div>
-              <div class="row">
-                      <div class="col">
-                          <label>E-Mail Address</label>
-                          <div class="input-group">
-    <span class="input-group-text "><i class="fa-regular fa-envelope"></i></i></span>
-    <input type="text" class="form-control" placeholder="E-mail-Address">
-  </div>
-                          </div>
-                  </div>
-
 
                <div class="row">
                       <div class="col">
+                          <label>E-Mail Address</label>
+                          
+                              <asp:TextBox CssClass="form-control" ID="TextBox4" runat="server" placeholder="Email Address" TextMode="Email"></asp:TextBox>
+                          </div>
+                         
+                  </div>   
+
+                       <div class="row">
+                      <div class="col">
                           <label>Password</label>
-                          <div class="input-group">
-    <span class="input-group-text "><i class="fa-solid fa-lock"></i></span>
-    <input type="password" class="form-control" placeholder="Password">
-  </div>
+                          
+                              <asp:TextBox CssClass="form-control" ID="TextBox5" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+                          </div>
                  <label><asp:CheckBox ID="CheckBox1" runat="server"></asp:CheckBox>
                      <span class="checkbox-icon">By clicking on Register button you are agree to our Terms & Condition</span></label>
                           
                           <div class="form-group">
-                              <asp:Button class="btn btn-primary btn-block btn-lg" ID="Button1" runat="server" Text="Signup" />
+                              <asp:Button class="btn btn-primary  btn-lg" ID="Button1" runat="server" Text="Signup" OnClick="Button1_Click" />
+                              
+
                           </div>
-                          </div>
+                       
                   </div>
-<%--Mail address--%>
-                 
 
-
-
-
-
-
-
-
-
-
-
-      
 </div>
 </div>  
-</div>
-</div>
 
-   
+
+  
 </asp:Content>

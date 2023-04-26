@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/hypeAI.Master" AutoEventWireup="true" CodeBehind="loginpage.aspx.cs" Inherits="hypequickai.loginpage" %>
+﻿
+<%@ Page Title="" Language="C#" MasterPageFile="~/hypeAI.Master" AutoEventWireup="true" CodeBehind="loginpage.aspx.cs" Inherits="hypequickai.loginpage" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -18,6 +19,7 @@
                       </div>
 <%--for inserting line--%>
                   <div class="row">
+
                       <div class="col">
                           <hr />
                           </div>
@@ -25,26 +27,28 @@
 
                   <div class="row">
                       <div class="col">
-                          <label>E-Mail Address</label>
-                          <div class="input-group">
-    <span class="input-group-text "><i class="fa-solid fa-user"></i></span>
-    <input type="text" class="form-control" placeholder="Username">
-  </div>
+                          <label>User Name</label>
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                              <asp:TextBox CssClass="form-control" ID="TextBox1" runat="server" placeholder="User Name" ></asp:TextBox>
+                         
                           </div>
                   </div>
 
-                  <div class="row">
+
+
+                 <div class="row">
                       <div class="col">
                           <label>Password</label>
-                          <div class="input-group">
-    <span class="input-group-text "><i class="fa-solid fa-lock"></i></span>
-    <input type="password" class="form-control" placeholder="Password">
-  </div>
+                   <asp:TextBox CssClass="form-control" ID="TextBox5" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+
+                         
+                          </div>
+                  </div>
                           <br />
                             <a href="forgotpassword.aspx">Forgot Password?</a>
                           <br />
                           <div class="form-group">
-                              <asp:Button class="btn btn-primary btn-block btn-lg"  ID="Button1" runat="server" Text="Login" />
+                              <asp:Button class="btn btn-primary btn-block btn-lg"  ID="Button1" runat="server" Text="Login" OnClick="Button1_Click" />
                           </div>
                          <br />
                         
@@ -53,8 +57,4 @@
       
 </div>
 </div>  
-</div>
-</div>
-
-
 </asp:Content>

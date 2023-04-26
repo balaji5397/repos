@@ -13,5 +13,10 @@ namespace hypequickai
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Write("<script>alert('Confirmation mail sent. Please check your email for the forgot password details');</script>");
+        }
     }
 }

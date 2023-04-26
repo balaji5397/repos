@@ -32,14 +32,16 @@
     <div style="display:inline-block;border-right: 2px solid #e0e0e0;padding-right:10px;height:82px;padding-top:15px;padding-left:20px;padding-right:20px;" class="logo">
      <a   href="https://localhost:44368/homepage.aspx"><img  src="photos/logo.png" height="42"  /></a>
     </div>
-        <div style="float:right;padding-right:10px;border-left: 2px solid #e0e0e0;padding-top:20px;padding-left:10px;height:82px;">
+        <div style="float:right;padding-right:10px;border-left: 2px solid #e0e0e0;padding-top:20px;padding-left:10px;height:82px;"> 
            
-   <button type="button" class="btn btn-primary" style="background-color: #333;border-radius: 4px;color: #fff" >English </button>
-       
+   <button type="button" class="btn btn-primary" style="background-color: #333;border-radius: 4px;color: #fff;border-color:#fff" >English </button>
+       <%--  --%>
                 </div>
+            
 
             <div style="float:right;padding-right:30px;border-left: 2px solid #e0e0e0;padding-top:20px;padding-left:30px;height:82px;">
-                <a href="https://localhost:44368/loginpage.aspx" class="btn btn-primary" style="background-color:#184698;border-radius: 4px;box-shadow:0 4px 12px;color: #fff">Join Now</a>
+
+        <asp:Button ID="Button1" runat="server" Text="Join Now" class="btn btn-primary btn-block " OnClick="Button1_Click" Width="109px"/>
              </div>      
 </div>
 
